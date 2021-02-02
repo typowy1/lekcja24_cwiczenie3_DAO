@@ -1,0 +1,18 @@
+JDBC #3: DAO (Data Access Object)
+Treść zadania
+
+Stwórz aplikację typu "biblioteka".
+
+Utwórz bazę danych "library" a w niej tabelę "books" (id, title, author, year, isbn).
+
+W aplikacji utwórz klasę Book odpowiadającą tabeli z bazy danych. Następnie utwórz klasę BookDao będącą pośrednikiem
+pomiędzy bazą a aplikacją.
+
+1. Utwórz kilka osobnych klas startowych (z metodą main):
+
+    LibrarySave – wczytaj w niej dane o dowolnej książce od użytkownika i zapisz te informacje w bazie danych
+    LibraryRead – wczytaj od użytkownika numer isbn książki i wczytaj na tej podstawie książkę z bazy danych oraz wyświetl informacje o niej w konsoli
+    LibraryUpdate – zaktualizuj dane dotyczące dowolnej książki zapisanej w bazie danych
+    LibraryDelete – usuń dowolną książkę z bazy danych.
+
+2. Zrealizuj dodawanie, odczyt, aktualizację i usuwanie danych w jednej klasie wybierając od użytkownika odpowiednią opcję, którą wprowadzi z klawiatury.
